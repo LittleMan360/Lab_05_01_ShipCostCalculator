@@ -3,7 +3,7 @@ public class Main
     public static void main(String[] args)
     {
 
-        double priceOfItem = 200;
+        double priceOfItem = 80;
         double shippingCost;
         double totalPrice;
 
@@ -19,8 +19,8 @@ public class Main
 
         totalPrice = priceOfItem + shippingCost;
 
-        System.out.println("Your shipping cost is " + shippingCost);
-        System.out.println("Your total price is " + totalPrice);
+        System.out.printf("Your shipping cost is $%.2f", + shippingCost);
+        System.out.printf(" Your total price is $%.2f", + totalPrice);
 
     }
 }
