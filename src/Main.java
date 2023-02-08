@@ -15,7 +15,7 @@ public class Main
         priceOfItem = 80;
 
         //Process
-        //Made if else for prices
+        //Made if else for prices gives warning cause simulated input
         if (priceOfItem < 100)
         {
             //Calculate shipping if less than 100
