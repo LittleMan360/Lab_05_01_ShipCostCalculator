@@ -2,6 +2,28 @@ public class Main
 {
     public static void main(String[] args)
     {
+
+        //class ShippingCalculator
+        //	main()
+        //	    //Declare variables
+        //	    num costOfItem
+        //	    num shippingCost
+        //    num totalCost
+        //	    //Prompt and input
+        //	    output “Enter the cost of the item ”
+        //	    input costOfItem
+        //	    //Process
+        //	    If costOfItem >= 100 then
+        //		shippingCost = 0
+        //	    Else if costOfItem < 100 then
+        //		shippingCost = costOfItem * .02
+        //	    endif
+        //	    totalCost = shippingCost + costOfItem
+        //	    //Output
+        //output “The shipping cost is ” + shippingCost + “the total cost with shipping is ” + totalCost
+        //	return
+        //end class
+
         //Declared variables
         double priceOfItem;
         double shippingCost;
